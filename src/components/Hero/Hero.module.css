@@ -1,0 +1,29 @@
+.carouselPhoto{
+    position: relative;
+    background: linear-gradient(90deg,#2686a9d8,#ffffff);
+}
+.carouselPhoto > img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 10% 35%;
+    opacity: .9;
+    vertical-align: bottom;
+}
+.carouselText{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.bigText{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    padding-right: 750px;
+}
+.smallText{
+    padding-top: 25px;
+    color: white;
+    font-size: 19px;
+}
+
