@@ -6,12 +6,8 @@ function Hero(){
         <div className={classes.carouselPhoto}>
             <img src={photo} alt="" />
             <div className={classes.carouselText}>
-                <div className={classes.bigText}>
-                    Comprehensive Healthcare solution for YOUR PARENTS!
-                </div>
-                <div className={classes.smallText}>
-                    Plans starting at 1499 tk per month only
-                </div>
+                <p className={classes.bigText}>Comprehensive Healthcare Solution for YOUR PARENTS!</p>
+                <p className={classes.smallText}>Plans starting at 1499 tk per month only</p>
             </div>
         </div>
     );
