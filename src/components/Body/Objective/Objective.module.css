@@ -1,0 +1,30 @@
+.objText{
+    padding: 5rem 0 1rem;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: #457DC3;
+}
+.smallText{
+    padding: 18px 14rem 2.5rem;
+}
+.objImage{
+    /* box-shadow: 5px 5px 5px #e9e9e9; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background: linear-gradient(90deg,#ffffff,#457DC3);
+}
+.objImage > img{
+    width: 150%;
+    height: 300px;
+    object-fit: cover;
+    vertical-align: bottom;
+    object-position: 10% 22%;
+    opacity: 0.9;
+}
+.imgText{
+    /* background: rgba(69, 125, 195, 0.25); */
+    padding: 6rem 2.5rem;
+    color: white;
+    z-index: 1;
+}
