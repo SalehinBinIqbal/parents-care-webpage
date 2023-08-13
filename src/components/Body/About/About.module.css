@@ -1,0 +1,68 @@
+.aboutSectionContainer{
+    margin-top: 6rem;
+    background-color: #EFF6FF;
+    /* display: flex;
+    gap: 50px;
+    justify-content: space-around; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 3rem 2rem 3rem 5rem;
+}
+.textArea>p{
+    margin: 0;
+}
+.textArea>p:nth-child(1){
+    color: #021C79;
+    font-size: 24px;
+    font-weight: 600;
+}
+.textArea>p:nth-child(2){
+    color: #018CFF;
+    font-size: 36px;
+    font-weight: 700;
+}
+.textArea>p:nth-child(3){
+    color: #333333;
+    font-size: 20px;
+}
+.textArea>button{
+    color: white;
+    background-color: #021C79;
+    border-radius: 50px;
+    padding: 12px 2rem;
+    border: 0px solid;
+    font-size: 22px;
+    font-weight: 600;
+}
+.textArea>button:hover{
+    cursor: pointer;
+}
+.photoArea{
+    /* display: flex;
+    gap: 1rem;
+    flex-flow: row wrap; */
+    /* align-items:end; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.stackedImage>img{
+    width: 100%;
+    /* display: block; */
+    border-radius: 10px;
+}
+.stackedImage:nth-child(1)>img{
+    width: 165px;
+    height: 114px;
+}
+.stackedImage:nth-child(2)>img{
+    width: 247px;
+    height: 165px;
+}
+.stackedImage:nth-child(3)>img{
+    width: 205px;
+    height: 148px;
+}
+.stackedImage:nth-child(4)>img{
+    width: 207px;
+    height: 97px;
+}
