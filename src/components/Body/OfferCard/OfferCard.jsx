@@ -41,7 +41,7 @@ function OfferCard() {
             <p>Regular Package</p>
             <a onClick={showList1}>View Details</a>
           </div>
-          <div className={viewDetailsList1}>
+          {/* <div className={viewDetailsList1}>
             <div className={classes.cardBodyMidContent}>
               <MdDone className={classes.listIcon} />
               <p>4 Tele Consultation with Dedicated Family Doctor</p>
@@ -83,10 +83,10 @@ function OfferCard() {
               <MdDone className={classes.listIcon} />
               <p>Dedicated Health manager for Coordination</p>
             </div>
-          </div>
+          </div> */}
           <div className={classes.cardBodyBottom}>
             <div className={classes.amountText}>
-              <FaBangladeshiTakaSign className={classes.bdtIcon} />
+              {/* <FaBangladeshiTakaSign className={classes.bdtIcon} /> */}
               <p>1,499</p>
             </div>
             <button>Buy the plan</button>
@@ -97,7 +97,7 @@ function OfferCard() {
             <p>Basic Package</p>
             <a onClick={showList2}>View Details</a>
           </div>
-          <div className={viewDetailsList2}>
+          {/* <div className={viewDetailsList2}>
             <div className={classes.cardBodyMidContent}>
               <MdDone className={classes.listIcon} />
               <p>4 Tele Consultation with Dedicated Family Doctor</p>
@@ -139,10 +139,10 @@ function OfferCard() {
               <MdDone className={classes.listIcon} />
               <p>Dedicated Health manager for Coordination</p>
             </div>
-          </div>
+          </div> */}
           <div className={classes.cardBodyBottom}>
             <div className={classes.amountText}>
-              <FaBangladeshiTakaSign className={classes.bdtIcon} />
+              {/* <FaBangladeshiTakaSign className={classes.bdtIcon} /> */}
               <p>3,999</p>
             </div>
             <button>Buy the plan</button>
@@ -153,7 +153,7 @@ function OfferCard() {
             <p>Standard Package</p>
             <a onClick={showList3}>View Details</a>
           </div>
-          <div className={viewDetailsList3}>
+          {/* <div className={viewDetailsList3}>
             <div className={classes.cardBodyMidContent}>
               <MdDone className={classes.listIcon} />
               <p>4 Tele Consultation with Dedicated Family Doctor</p>
@@ -195,10 +195,10 @@ function OfferCard() {
               <MdDone className={classes.listIcon} />
               <p>Dedicated Health manager for Coordination</p>
             </div>
-          </div>
+          </div> */}
           <div className={classes.cardBodyBottom}>
             <div className={classes.amountText}>
-              <FaBangladeshiTakaSign className={classes.bdtIcon} />
+              {/* <FaBangladeshiTakaSign className={classes.bdtIcon} /> */}
               <p>7,999</p>
             </div>
             <button>Buy the plan</button>
@@ -209,7 +209,7 @@ function OfferCard() {
             <p>Premium Package</p>
             <a onClick={showList4}>View Details</a>
           </div>
-          <div className={viewDetailsList4}>
+          {/* <div className={viewDetailsList4}>
             <div className={classes.cardBodyMidContent}>
               <MdDone className={classes.listIcon} />
               <p>4 Tele Consultation with Dedicated Family Doctor</p>
@@ -251,10 +251,10 @@ function OfferCard() {
               <MdDone className={classes.listIcon} />
               <p>Dedicated Health manager for Coordination</p>
             </div>
-          </div>
+          </div> */}
           <div className={classes.cardBodyBottom}>
             <div className={classes.amountText}>
-              <FaBangladeshiTakaSign className={classes.bdtIcon} />
+              {/* <FaBangladeshiTakaSign className={classes.bdtIcon} /> */}
               <p>16,999</p>
             </div>
             <button>Buy the plan</button>
