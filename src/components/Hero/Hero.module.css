@@ -1,31 +1,27 @@
-.carouselPhoto{
-    position: relative;
-}
-.carouselPhoto > img{
+.heroSection > img{
     width: 100%;
     height: 400px;
     object-fit: cover;
     object-position: 10% 35%;
 }
-.carouselText{
+.heroText{
     position: absolute;
-    top: 320px;
+    top: 310px;
     right: 0;
     background-color: white;
-    z-index: 1;
-    padding: 1.8rem 5.5rem;
-    border-radius: 30px 0 0 30px;
+    /* opacity: 0.9; */
+    padding: 1.8rem 3rem;
+    border-radius: 16px 0 0 16px;
     box-shadow: 0px 0px 10px #888888;
 }
-.bigText{
+.heroTitle{
     margin: 0;
     font-size: 33px;
-    color: #021C79;
+    color: rgb(12, 87, 157);
     font-weight: 600;
 }
-.smallText{
-    margin: 0;
-    padding-top: 12px;
+.heroDescription{
+    margin: 12px 0 0;
     color: #333333;
     font-size: 22px;
     font-weight: 500;
