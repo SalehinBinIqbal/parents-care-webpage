@@ -9,7 +9,7 @@ function Hero() {
         <p className={classes.heroTitle}>
           Comprehensive Healthcare Solution for YOUR PARENTS!
         </p>
-        <p className={classes.herodescription}>
+        <p className={classes.heroDescription}>
           Plans starting at 1499 tk per month only
         </p>
       </div>
