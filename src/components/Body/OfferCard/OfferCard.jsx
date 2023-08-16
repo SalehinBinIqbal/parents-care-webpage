@@ -4,7 +4,6 @@ import { MdDone } from "react-icons/md";
 import classes from "./OfferCard.module.css";
 
 function OfferCard() {
-  let text = "View Details";
   const [viewDetailsList1, changeViewDetailsList1] = useState(
     classes.cardBodyMidHide
   );
