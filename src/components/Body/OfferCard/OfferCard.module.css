@@ -1,0 +1,142 @@
+.cardSection{
+    padding: 0 5.5rem;
+}
+.cardSectionText{
+    text-align: center;
+}
+.cardSectionText>p:nth-child(1){
+    color: #018CFF;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 1px 0;
+}
+.cardSectionText>p:nth-child(2){
+    color: #333333;
+    font-size: 23px;
+    margin: 12px 0;
+}
+.cardContainer{
+    padding-top: 1.8rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 4rem;
+}
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E8E4E4;
+    border-radius: 8px;
+    margin-top: 4px;
+    background: linear-gradient(90deg, #cCe4f6, #F3F9FD);
+    background-size: cover;
+}
+.cardBody:hover{
+    box-shadow: 0 3px 10px #E8E4E4;
+    transform: scale(1.005);
+    animation: hoverAnimation;
+    animation-duration: 600ms;
+}
+.cardBody:not(:hover){
+    animation: hoverOutAnimation;
+    animation-duration: 800ms;
+}
+
+.cardBodyTop{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 1.5rem 0;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+.cardBodyTop>p{
+    margin: 0;
+    font-size: 24px;
+    color: #333333;
+}
+.cardBodyTop>a{
+    color: #021C79;
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.cardBodyMidHide{
+    display: none;
+}
+.cardBodyMidShow{
+    display: flex;
+    flex-direction: column;
+    gap: 9px 0;
+    padding: 12px 0;
+    margin: 0 1.5rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+.cardBodyMidContent{
+    display: grid;
+    grid-template-columns: .3fr 4fr;
+    align-items: center;
+    grid-gap: 0;
+} 
+.listIcon{
+    background-color: #018CFF;
+    border-radius: 50%;
+    color: white;
+    font-size: 14px;
+    padding: 3px;
+}
+.cardBodyMidContent>p{
+    margin: 0;
+}
+.cardBodyBottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.5rem;
+    padding: 2rem 0 1.8rem;
+}
+.amountText{
+    display: flex;
+    justify-content: space-around;
+    gap: 4px;
+    align-items: center;
+}
+.bdtIcon{
+    color: #333333;
+    font-size: 18px;
+}
+.amountText>p{
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+    color: #333333;
+}
+.cardBodyBottom>button{
+    font-family: 'Poppins';
+    border: 0 solid;
+    border-radius: 6px;
+    background: #419CD9;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    padding: 6px 16px;
+}
+
+
+@keyframes hoverAnimation{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.005);
+        box-shadow: 0 3px 10px #E8E4E4;
+    }
+} 
+@keyframes hoverOutAnimation{
+    0%{
+        transform: scale(1.005);
+        box-shadow: 0 3px 10px #E8E4E4;
+    }
+    100%{
+        transform: scale(1);
+    }
+}

@@ -15,9 +15,7 @@ import classes from "./IconGrid.module.css";
 function IconGrid() {
   return (
     <div className={classes.iconGridContainer}>
-      <div className={classes.iconGridText}>
-        Personalized Care for Your Parents
-      </div>
+      <p className={classes.iconGridText}>Personalized Care for Your Parents</p>
       <div className={classes.iconGrid}>
         <div className={classes.iconSection}>
           <div className={classes.iconContainer}>
