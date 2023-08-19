@@ -15,7 +15,7 @@ function WhyHealthx() {
           <div className={classes.iconContainer}>
             <img className={classes.icons} src={icon1} alt="" />
           </div>
-          <div className={classes.textContainer1}>
+          <div className={classes.textContainerOdd}>
             <p>We have 24/7 Dedicated Health Manager</p>
           </div>
         </div>
@@ -23,7 +23,7 @@ function WhyHealthx() {
           <div className={classes.iconContainer}>
             <img className={classes.icons} src={icon2} alt="" />
           </div>
-          <div className={classes.textContainer2}>
+          <div className={classes.textContainerEven}>
             <p>24/7 Dedicated Doctors & Caregivers</p>
           </div>
         </div>
@@ -31,7 +31,7 @@ function WhyHealthx() {
           <div className={classes.iconContainer}>
             <img className={classes.icons} src={icon3} alt="" />
           </div>
-          <div className={classes.textContainer3}>
+          <div className={classes.textContainerOdd}>
             <p>Trusted & Certified Caregivers</p>
           </div>
         </div>
@@ -39,7 +39,7 @@ function WhyHealthx() {
           <div className={classes.iconContainer}>
             <img className={classes.icons} src={icon4} alt="" />
           </div>
-          <div className={classes.textContainer4}>
+          <div className={classes.textContainerEven}>
             <p>Pool of 1000+ Doctors</p>
           </div>
         </div>
@@ -47,7 +47,7 @@ function WhyHealthx() {
           <div className={classes.iconContainer}>
             <img className={classes.icons} src={icon5} alt="" />
           </div>
-          <div className={classes.textContainer5}>
+          <div className={classes.textContainerOdd}>
             <p>We provide Personalized Services</p>
           </div>
         </div>
@@ -55,7 +55,7 @@ function WhyHealthx() {
           <div className={classes.iconContainer}>
             <img className={classes.icons} src={icon6} alt="" />
           </div>
-          <div className={classes.textContainer6}>
+          <div className={classes.textContainerEven}>
             <p>Simplified process to avail services</p>
           </div>
         </div>
