@@ -16,8 +16,8 @@
     margin: 12px 0;
 }
 .planContainer{
-    display: flex;
-    gap: 3%;
+    display: grid;
+    grid-template-columns: .85fr .4fr .85fr .4fr 1fr;
 }
 .plan{
     display: flex;
@@ -35,7 +35,6 @@
     font-size: 50px;
     font-weight: 700;
     color: var(--blue1);
-
     font-family: 'Archivo Narrow';
 }
 .planText{
@@ -50,8 +49,10 @@
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    width: 300px;
     height: 160px;
+}
+.plan:nth-child(5)>.planText{
+    max-width: 85%;
 }
 .planText>p{
     font-size: 19px;
@@ -59,6 +60,7 @@
 .arrowIcon{
     display: flex;
     align-items: center;
+    justify-content: center;
     position: relative;
     left: 35px;
 }
