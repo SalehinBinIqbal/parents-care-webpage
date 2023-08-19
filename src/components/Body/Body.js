@@ -1,27 +1,20 @@
 import About from './About/About';
 import IconGrid from './IconGrid/IconGrid';
-import OfferCard from './OfferCard/OfferCard';
+import OfferCard2 from './OfferCard2/OfferCard2';
 import WhyHealthx from './WhyHealthx/WhyHealthx';
 import Avail from './Avail/Avail';
 import FAQ from './FAQ/FAQ';
-import Card from './Card/Card'
-import Card2 from './Card2/Card2'
-import Objective from './Objective/Objective';
-import classes from './Body.module.css';
 
 function Body(){
     return(
-        <div className={classes.bodyContainer}>
-            <About/>
-            <IconGrid/>
-            <OfferCard/>
-            <WhyHealthx/>
-            <Avail/>
-            <FAQ/>
-            {/* <Card />
-            <Card2/>
-            <Objective/> */}
-        </div>
+        <>
+            <About />
+            <IconGrid />
+            <OfferCard2 />
+            <WhyHealthx />
+            <Avail />
+            <FAQ />
+        </>
     );
 }
 
