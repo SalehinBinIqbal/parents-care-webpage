@@ -9,7 +9,6 @@
     top: 310px;
     right: 0;
     background-color: white;
-    /* opacity: 0.9; */
     padding: 1.8rem 3rem;
     border-radius: 16px 0 0 16px;
     box-shadow: 0px 0px 10px #888888;
@@ -17,12 +16,12 @@
 .heroTitle{
     margin: 0;
     font-size: 33px;
-    color: rgb(12, 87, 157);
+    color: var(--deep-blue);
     font-weight: 600;
 }
 .heroDescription{
     margin: 12px 0 0;
-    color: #333333;
+    color: var(--dark-grey);
     font-size: 22px;
     font-weight: 500;
 }
