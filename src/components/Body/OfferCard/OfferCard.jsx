@@ -4,30 +4,6 @@ import { MdDone } from "react-icons/md";
 import classes from "./OfferCard.module.css";
 
 function OfferCard() {
-  const [viewDetailsList1, changeViewDetailsList1] = useState(
-    classes.cardBodyMidHide
-  );
-  const showList1 = () => {
-    changeViewDetailsList1(classes.cardBodyMidShow);
-  };
-  const [viewDetailsList2, changeViewDetailsList2] = useState(
-    classes.cardBodyMidHide
-  );
-  const showList2 = () => {
-    changeViewDetailsList2(classes.cardBodyMidShow);
-  };
-  const [viewDetailsList3, changeViewDetailsList3] = useState(
-    classes.cardBodyMidHide
-  );
-  const showList3 = () => {
-    changeViewDetailsList3(classes.cardBodyMidShow);
-  };
-  const [viewDetailsList4, changeViewDetailsList4] = useState(
-    classes.cardBodyMidHide
-  );
-  const showList4 = () => {
-    changeViewDetailsList4(classes.cardBodyMidShow);
-  };
   return (
     <div className={classes.cardSection}>
       <div className={classes.cardSectionText}>
@@ -38,7 +14,7 @@ function OfferCard() {
         <div className={classes.cardBody}>
           <div className={classes.cardBodyTop}>
             <p>Regular Package</p>
-            <a onClick={showList1}>View Details</a>
+            <a>View Details</a>
           </div>
           {/* <div className={viewDetailsList1}>
             <div className={classes.cardBodyMidContent}>
@@ -85,7 +61,7 @@ function OfferCard() {
           </div> */}
           <div className={classes.cardBodyBottom}>
             <div className={classes.amountText}>
-              {/* <FaBangladeshiTakaSign className={classes.bdtIcon} /> */}
+              <FaBangladeshiTakaSign className={classes.bdtIcon} />
               <p>1,499</p>
             </div>
             <button>Buy the plan</button>
@@ -94,7 +70,7 @@ function OfferCard() {
         <div className={classes.cardBody}>
           <div className={classes.cardBodyTop}>
             <p>Basic Package</p>
-            <a onClick={showList2}>View Details</a>
+            <a>View Details</a>
           </div>
           {/* <div className={viewDetailsList2}>
             <div className={classes.cardBodyMidContent}>
@@ -141,7 +117,7 @@ function OfferCard() {
           </div> */}
           <div className={classes.cardBodyBottom}>
             <div className={classes.amountText}>
-              {/* <FaBangladeshiTakaSign className={classes.bdtIcon} /> */}
+              <FaBangladeshiTakaSign className={classes.bdtIcon} />
               <p>3,999</p>
             </div>
             <button>Buy the plan</button>
@@ -150,7 +126,7 @@ function OfferCard() {
         <div className={classes.cardBody}>
           <div className={classes.cardBodyTop}>
             <p>Standard Package</p>
-            <a onClick={showList3}>View Details</a>
+            <a>View Details</a>
           </div>
           {/* <div className={viewDetailsList3}>
             <div className={classes.cardBodyMidContent}>
@@ -197,7 +173,7 @@ function OfferCard() {
           </div> */}
           <div className={classes.cardBodyBottom}>
             <div className={classes.amountText}>
-              {/* <FaBangladeshiTakaSign className={classes.bdtIcon} /> */}
+              <FaBangladeshiTakaSign className={classes.bdtIcon} />
               <p>7,999</p>
             </div>
             <button>Buy the plan</button>
@@ -206,7 +182,7 @@ function OfferCard() {
         <div className={classes.cardBody}>
           <div className={classes.cardBodyTop}>
             <p>Premium Package</p>
-            <a onClick={showList4}>View Details</a>
+            <a>View Details</a>
           </div>
           {/* <div className={viewDetailsList4}>
             <div className={classes.cardBodyMidContent}>
