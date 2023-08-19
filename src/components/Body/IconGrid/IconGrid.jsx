@@ -4,7 +4,7 @@ import icon3 from "../../../assets/icons/Online Doctor Support Icon.svg";
 import icon4 from "../../../assets/icons/Medicine Delivery Icon.svg";
 import icon5 from "../../../assets/icons/Sample Collection Home Icon.svg";
 import icon6 from "../../../assets/icons/Health Checkup at Home.svg";
-import icon7 from "../../../assets/icons/physiotherapy.png";
+import icon7 from "../../../assets/icons/physical-therapy.png";
 import icon8 from "../../../assets/icons/Psychological Support.svg";
 import icon9 from "../../../assets/icons/diet.png";
 import icon10 from "../../../assets/icons/Priority Service Hospital Icon.svg";
