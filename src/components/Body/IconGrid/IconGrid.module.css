@@ -1,5 +1,5 @@
 .iconGridContainer{
-    padding: 4rem 5.5rem;
+    padding: 4rem 5rem;
 }
 .iconGridText{
     color: var(--blue1);
@@ -49,6 +49,5 @@
     padding-top: 10px;
 }
 .iconSection:nth-child(4)>.iconTextContainer{ 
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 10px 7px 0;
 }
