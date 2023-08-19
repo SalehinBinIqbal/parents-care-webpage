@@ -1,5 +1,5 @@
 .container{
-    padding: 8.5rem 5.5rem 2rem;
+    padding: 8.5rem 5rem 2rem;
 }
 .textContainer{
     text-align: center;
@@ -20,8 +20,6 @@
     grid-template-columns: .85fr .4fr .85fr .4fr 1fr;
 }
 .plan{
-    display: flex;
-    flex-direction: column;
     padding-top: 2.5rem;
 }
 .number{
@@ -52,7 +50,7 @@
     height: 160px;
 }
 .plan:nth-child(5)>.planText{
-    max-width: 85%;
+    max-width: 84%;
 }
 .planText>p{
     font-size: 19px;
