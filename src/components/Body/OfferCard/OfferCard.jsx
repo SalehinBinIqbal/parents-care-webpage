@@ -7,8 +7,8 @@ function OfferCard() {
   return (
     <div className={classes.cardSection}>
       <div className={classes.cardSectionText}>
-        <p>Parent Care Plan (PCP) Offers</p>
-        <p>Choose your best plan by month</p>
+        <p className={classes.title}>Parent Care Plan (PCP) Offers</p>
+        <p className={classes.subTitle}>Choose your best plan by month</p>
       </div>
       <div className={classes.cardContainer}>
         <div className={classes.cardBody}>
@@ -229,7 +229,7 @@ function OfferCard() {
           </div> */}
           <div className={classes.cardBodyBottom}>
             <div className={classes.amountText}>
-              {/* <FaBangladeshiTakaSign className={classes.bdtIcon} /> */}
+              <FaBangladeshiTakaSign className={classes.bdtIcon} />
               <p>16,999</p>
             </div>
             <button>Buy the plan</button>
