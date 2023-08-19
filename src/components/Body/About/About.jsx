@@ -14,8 +14,11 @@ function About() {
           <p className={classes.description}>
             Parent care plan (PCP) is a comprehensive health plan for the aged
             parents or senior citizens which covers the primary & essential
-            health care service needs! This plan covers the services starting
-            from online doctor support to Doctor & Nurse visit at home.
+            health care service needs!
+            <br /> <br />
+            This plan covers the services starting from online doctor support to
+            Doctor & Nurse visit at home to emergency care coordination like
+            hospital transfer.
           </p>
         </div>
         <div className={classes.photoArea}>
@@ -54,8 +57,7 @@ function About() {
             <br />
             Don’t worry! Leave your tension to us, we provide the most reliable
             & caring Parents Care services to your loved ones, just like our
-            own! Our dedicated ‘Health Manager’ will arrange visits in any major
-            cities of the country.
+            own!
             <br /> <br />
             For more information, &nbsp;
             <a href="">Book now</a> or call us at &nbsp;
