@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');/*Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&display=swap');
+
+:root{
+  --deep-blue: #021c79;
+  --dark-grey: #333333;
+
+  --light-blue: #018cff;
+  --light-grey: rgba(174,186,207,0.4);
+  --bg-blue: rgba(65,156,217,0.8);
+
+  --blue1: #457dc3;
+  --blue2: #419cd9;
+}
 html{
   scroll-behavior: smooth;
 }
