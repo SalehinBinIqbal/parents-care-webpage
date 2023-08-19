@@ -1,6 +1,9 @@
 import About from './About/About';
 import IconGrid from './IconGrid/IconGrid';
 import OfferCard from './OfferCard/OfferCard';
+import WhyHealthx from './WhyHealthx/WhyHealthx';
+import Avail from './Avail/Avail';
+import FAQ from './FAQ/FAQ';
 import Card from './Card/Card'
 import Card2 from './Card2/Card2'
 import Objective from './Objective/Objective';
@@ -12,6 +15,9 @@ function Body(){
             <About/>
             <IconGrid/>
             <OfferCard/>
+            <WhyHealthx/>
+            <Avail/>
+            <FAQ/>
             {/* <Card />
             <Card2/>
             <Objective/> */}
