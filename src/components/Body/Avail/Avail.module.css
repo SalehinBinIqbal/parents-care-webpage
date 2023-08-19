@@ -22,7 +22,7 @@
 .plan{
     padding-top: 2.5rem;
 }
-.number{
+.numberBox{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +35,7 @@
     color: var(--blue1);
     font-family: 'Archivo Narrow';
 }
-.planText{
+.textBox{
     border: 2px solid #9BBBe3;
     border-style: dashed;
     border-radius: 6px;
@@ -49,10 +49,10 @@
     box-sizing: border-box;
     height: 160px;
 }
-.plan:nth-child(5)>.planText{
+.plan:nth-child(5)>.textBox{
     max-width: 84%;
 }
-.planText>p{
+.textBox>p{
     font-size: 19px;
 }
 .arrowIcon{

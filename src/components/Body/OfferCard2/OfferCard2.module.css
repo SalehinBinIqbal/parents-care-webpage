@@ -1,7 +1,7 @@
 .cardSection{
     padding: 0 5rem;
 }
-.cardSectionText{
+.cardText{
     text-align: center;
 }
 .title{
@@ -45,12 +45,12 @@
     padding-bottom: 1.5rem;
     border-bottom: 2px solid rgba(255, 255, 255, 0.45);
 }
-.cardBodyTop>p{
+.packageName{
     margin: 0;
     font-size: 24px;
     color: #333333;
 }
-.cardBodyTop>a{
+.detailsLink{
     color: var(--deep-blue);
     font-size: 20px;
     text-decoration: underline;
@@ -74,13 +74,13 @@
     color: var(--dark-grey);
     font-size: 18px;
 }
-.amountText>p{
+.text{
     margin: 0;
     font-size: 28px;
     font-weight: 600;
     color: var(--dark-grey);
 }
-.cardBodyBottom>button{
+.buyButton{
     font-family: 'Poppins';
     border: 0 solid;
     border-radius: 6px;

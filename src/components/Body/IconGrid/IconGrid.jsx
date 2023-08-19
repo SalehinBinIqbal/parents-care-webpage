@@ -1,105 +1,93 @@
-import icon1 from "../../../assets/icons/Health Manager Icon.svg";
-import icon2 from "../../../assets/icons/Doctor Visit Home Icon.svg";
-import icon3 from "../../../assets/icons/Online Doctor Support Icon.svg";
-import icon4 from "../../../assets/icons/Medicine Delivery Icon.svg";
-import icon5 from "../../../assets/icons/Sample Collection Home Icon.svg";
-import icon6 from "../../../assets/icons/Health Checkup at Home.svg";
-import icon7 from "../../../assets/icons/physio.svg";
-import icon8 from "../../../assets/icons/Psychological Support.svg";
-import icon9 from "../../../assets/icons/diet.svg";
-import icon10 from "../../../assets/icons/Priority Service Hospital Icon.svg";
-import icon11 from "../../../assets/icons/Blood Donor Icon.svg";
-import icon12 from "../../../assets/icons/Digital Health Record Icon.svg";
+import healthManager from "../../../assets/Parent/Online.svg";
+import visitHome from "../../../assets/Parent/Home.svg";
+import onlineSupport from "../../../assets/Parent/Support.svg";
+import delivery from "../../../assets/Parent/Delivery.svg";
+import sampleCollect from "../../../assets/Parent/Sample.svg";
+import healthCheck from "../../../assets/Parent/Checkup.svg";
+import physiotherapy from "../../../assets/Parent/Physiotherapy.svg";
+import psychology from "../../../assets/Parent/Psychological.svg";
+import dietCare from "../../../assets/Parent/Diet.svg";
+import priorityService from "../../../assets/Parent/Service.svg";
+import ambulance from "../../../assets/Parent/Ambulance.svg";
+import healthRecord from "../../../assets/Parent/Records.svg";
 import classes from "./IconGrid.module.css";
 
 function IconGrid() {
   return (
-    <div className={classes.iconGridContainer}>
-      <p className={classes.iconGridText}>Personalized Care for Your Parents</p>
+    <div className={classes.container}>
+      <p className={classes.title}>Personalized Care for Your Parents</p>
       <div className={classes.iconGrid}>
         <div className={classes.iconSection}>
           <div className={classes.iconContainer}>
-            <img src={icon1} alt="" />
+            <img src={healthManager} alt="" />
           </div>
-          <div className={classes.iconTextContainer}>
-            Dedicated Health Manager
-          </div>
+          <div className={classes.textBox}>Dedicated Health Manager</div>
         </div>
         <div className={classes.iconSection}>
           <div className={classes.iconContainer}>
-            <img src={icon2} alt="" />
+            <img src={visitHome} alt="" />
           </div>
-          <div className={classes.iconTextContainer}>Doctor Visit at Home</div>
+          <div className={classes.textBox}>Doctor Visit at Home</div>
         </div>
         <div className={classes.iconSection}>
           <div className={classes.iconContainer}>
-            <img src={icon3} alt="" />
+            <img src={onlineSupport} alt="" />
           </div>
-          <div className={classes.iconTextContainer}>Online Doctor Support</div>
+          <div className={classes.textBox}>Online Doctor Support</div>
         </div>
         <div className={classes.iconSection}>
           <div className={classes.iconContainer}>
-            <img src={icon4} alt="" />
+            <img src={delivery} alt="" />
           </div>
-          <div className={classes.iconTextContainer}>Medicine Delivery</div>
+          <div className={classes.textBox}>Medicine Delivery</div>
         </div>
         <div className={classes.iconSection}>
           <div className={classes.iconContainer}>
-            <img src={icon5} alt="" />
+            <img src={sampleCollect} alt="" />
           </div>
-          <div className={classes.iconTextContainer}>
-            Sample Collection at Home
-          </div>
+          <div className={classes.textBox}>Sample Collection at Home</div>
         </div>
         <div className={classes.iconSection}>
           <div className={classes.iconContainer}>
-            <img src={icon6} alt="" />
+            <img src={healthCheck} alt="" />
           </div>
-          <div className={classes.iconTextContainer}>
-            Health Checkup at Home
-          </div>
+          <div className={classes.textBox}>Health Checkup at Home</div>
         </div>
         <div className={classes.iconSection}>
           <div className={classes.iconContainer}>
-            <img src={icon7} alt="" />
+            <img src={physiotherapy} alt="" />
           </div>
-          <div className={classes.iconTextContainer}>Physiotherapy at Home</div>
+          <div className={classes.textBox}>Physiotherapy at Home</div>
         </div>
         <div className={classes.iconSection}>
           <div className={classes.iconContainer}>
-            <img src={icon8} alt="" />
+            <img src={psychology} alt="" />
           </div>
-          <div className={classes.iconTextContainer}>Psychological Support</div>
+          <div className={classes.textBox}>Psychological Support</div>
         </div>
         <div className={classes.iconSection}>
           <div className={classes.iconContainer}>
-            <img src={icon9} alt="" />
+            <img src={dietCare} alt="" />
           </div>
-          <div className={classes.iconTextContainer}>Diet & Nutrition Care</div>
+          <div className={classes.textBox}>Diet & Nutrition Care</div>
         </div>
         <div className={classes.iconSection}>
           <div className={classes.iconContainer}>
-            <img src={icon10} alt="" />
+            <img src={priorityService} alt="" />
           </div>
-          <div className={classes.iconTextContainer}>
-            Priority Service at Hospital
-          </div>
+          <div className={classes.textBox}>Priority Service at Hospital</div>
         </div>
         <div className={classes.iconSection}>
           <div className={classes.iconContainer}>
-            <img src={icon11} alt="" />
+            <img src={ambulance} alt="" />
           </div>
-          <div className={classes.iconTextContainer}>
-            Ambulance/Blood Donor Support
-          </div>
+          <div className={classes.textBox}>Ambulance/Blood Donor Support</div>
         </div>
         <div className={classes.iconSection}>
           <div className={classes.iconContainer}>
-            <img src={icon12} alt="" />
+            <img src={healthRecord} alt="" />
           </div>
-          <div className={classes.iconTextContainer}>
-            Digital Health Records
-          </div>
+          <div className={classes.textBox}>Digital Health Records</div>
         </div>
       </div>
     </div>

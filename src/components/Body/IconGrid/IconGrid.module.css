@@ -1,7 +1,7 @@
-.iconGridContainer{
+.container{
     padding: 4rem 5rem;
 }
-.iconGridText{
+.title{
     color: var(--blue1);
     font-size: 36px;
     font-weight: 700;
@@ -41,13 +41,13 @@
 .iconSection:nth-child(7)>.iconContainer>img, .iconSection:nth-child(9)>.iconContainer>img{
     max-width: 85%;
 }
-.iconTextContainer{
+.textBox{
     text-align: center;
     color: var(--deep-blue);
     font-size: 19px;
     font-weight: 500;
     padding-top: 10px;
 }
-.iconSection:nth-child(4)>.iconTextContainer{ 
+.iconSection:nth-child(4)>.textBox{ 
     padding: 10px 7px 0;
 }

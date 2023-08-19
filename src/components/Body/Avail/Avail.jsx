@@ -1,4 +1,4 @@
-import arrowIcon from "../../../assets/rightarrow.png";
+import arrowIcon from "../../../assets/Parent/Arrow.png";
 import classes from "./Avail.module.css";
 
 function Avail() {
@@ -12,10 +12,10 @@ function Avail() {
       </div>
       <div className={classes.planContainer}>
         <div className={classes.plan}>
-          <div className={classes.number}>
+          <div className={classes.numberBox}>
             <p>1</p>
           </div>
-          <div className={classes.planText}>
+          <div className={classes.textBox}>
             <p>Make a call to the Health Manager to activate your plan</p>
           </div>
         </div>
@@ -23,10 +23,10 @@ function Avail() {
           <img src={arrowIcon} alt="" />
         </div>
         <div className={classes.plan}>
-          <div className={classes.number}>
+          <div className={classes.numberBox}>
             <p>2</p>
           </div>
-          <div className={classes.planText}>
+          <div className={classes.textBox}>
             <p>
               Our dedicated health manager will active your Parents Care Plan
             </p>
@@ -36,10 +36,10 @@ function Avail() {
           <img src={arrowIcon} alt="" />
         </div>
         <div className={classes.plan}>
-          <div className={classes.number}>
+          <div className={classes.numberBox}>
             <p>3</p>
           </div>
-          <div className={classes.planText}>
+          <div className={classes.textBox}>
             <p>
               After activating your account, make a call the health manager when
               you need

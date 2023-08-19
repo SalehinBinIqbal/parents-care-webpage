@@ -13,7 +13,7 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 8rem 3.5rem;
 }
-.grid{
+.gridBox{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -27,8 +27,9 @@
     align-items: center;
     margin: auto;
     padding: 23px;
+    border: 1px solid #D8E7F3;
 }
-.textContainerOdd, .textContainerEven{
+.textBox, .textBoxBg{
     background-size: cover;
     background-position: center;
     border-radius: 8px;
@@ -40,23 +41,23 @@
     width: 100%;
     height: 150%;
 }
-.textContainerOdd{
-    background-image: url("../../../assets/Why\ Healthx\ Card\ Bg.png");
+.textBox{
+    background: #D8E7F3;
+}
+.textBoxBg{
+    background-image: url("../../../assets/Parent/Stethoscope.png");
     background-position: center;
     background-size: cover;
 }
-.textContainerEven{
-    background: #D8E7F3;
-}
-.grid p{
+.text{
     font-size: 19px;
     font-weight: 500;
     color: var(--dark-grey);
     margin-top: 5%;
 }
-.grid:nth-child(3) p{
+.gridBox:nth-child(3)>.textBoxBg>.text{
     padding: 0 1rem;
 }
-.grid:nth-child(4) p{
+.gridBox:nth-child(4)>.textBox>.text{
     padding: 0 3.55rem;
 }

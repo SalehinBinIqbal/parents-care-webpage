@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { FaBangladeshiTakaSign } from "react-icons/fa6";
 import { MdDone } from "react-icons/md";
 import classes from "./OfferCard.module.css";
@@ -6,15 +5,15 @@ import classes from "./OfferCard.module.css";
 function OfferCard() {
   return (
     <div className={classes.cardSection}>
-      <div className={classes.cardSectionText}>
+      <div className={classes.cardText}>
         <p className={classes.title}>Parent Care Plan (PCP) Offers</p>
         <p className={classes.subTitle}>Choose your best plan by month</p>
       </div>
       <div className={classes.cardContainer}>
         <div className={classes.cardBody}>
           <div className={classes.cardBodyTop}>
-            <p>Regular Package</p>
-            <a>View Details</a>
+            <p className={classes.packageName}>Regular Package</p>
+            <a className={classes.detailsLink}>View Details</a>
           </div>
           {/* <div className={viewDetailsList1}>
             <div className={classes.cardBodyMidContent}>
@@ -62,9 +61,9 @@ function OfferCard() {
           <div className={classes.cardBodyBottom}>
             <div className={classes.amountText}>
               <FaBangladeshiTakaSign className={classes.bdtIcon} />
-              <p>1,499</p>
+              <p className={classes.text}>1,499</p>
             </div>
-            <button>Buy the plan</button>
+            <button className={classes.buyButton}>Buy the plan</button>
           </div>
         </div>
         <div className={classes.cardBody}>

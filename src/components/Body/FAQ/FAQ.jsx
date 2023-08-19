@@ -1,4 +1,4 @@
-import plusIcon from "../../../assets/plus.png";
+import plusIcon from "../../../assets/Parent/Plus.png";
 import classes from "./FAQ.module.css";
 
 function FAQ() {

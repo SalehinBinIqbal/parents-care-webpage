@@ -1,11 +1,11 @@
 .aboutSection{
     margin-top: 7.6rem;
-    background-image: url("../../../assets/Bg.png");
+    background-image: url("../../../assets/Parent/AboutBg.png");
     background-size: cover;
     background-position: center;
     padding: 0 5rem;
 }
-.lightContainer{
+.firstContainer{
     display: flex;
     justify-content: space-between;
     padding: 4.6rem 0 3rem;
@@ -35,7 +35,7 @@
     grid-template-columns: repeat(2,1fr);
     grid-gap: 0 10px;
 }
-.stackedImage>img{
+.imageContainer>img{
     border-radius: 10px;
     object-fit: cover;
 }
@@ -62,7 +62,7 @@
 
 
 
-.deepContainer{
+.secondContainer{
     padding-top: 1rem;
     display: flex;
     justify-content: space-between;
@@ -73,7 +73,7 @@
     border-radius: 0 34px 0 0;
     width: 93%;
 }
-.borderImage>img{
+.floatingImage{
     height: 270px;
     width: 378px;
     object-fit: cover;
@@ -88,17 +88,17 @@
 .textArea2>p{
     margin: 0;
 }
-.textArea2>p:nth-child(1){
+.boldTitle2{
     color: var(--light-blue);
     font-size: 36px;
     font-weight: 700;
 }
-.textArea2>p:nth-child(2){
+.description2{
     padding-top: 1rem;
     font-size: 20px;
     color: var(--dark-grey);
 }
-.textArea2 a{
+.description2>a{
     color: var(--dark-grey);
     font-weight: 600;
 }

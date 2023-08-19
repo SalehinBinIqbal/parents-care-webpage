@@ -1,13 +1,13 @@
-import topRightPhoto from "../../../assets/cardimage1.png";
-import topLeftPhoto from "../../../assets/cardimage2.webp";
-import bottomLeftPhoto from "../../../assets/nurse-holding-senior-man-s-hands-comfort.jpg";
-import bottomRightPhoto from "../../../assets/objImage.jpg";
+import oldCouple from "../../../assets/Parent/Old.png";
+import homeNursing from "../../../assets/Parent/Nursing.webp";
+import handHolding from "../../../assets/Parent/Hand.jpg";
+import doctorPatient from "../../../assets/Parent/Wheelchair.jpg";
 import classes from "./About.module.css";
 
 function About() {
   return (
     <div className={classes.aboutSection}>
-      <div className={classes.lightContainer}>
+      <div className={classes.firstContainer}>
         <div className={classes.textArea}>
           <p className={classes.title}>About Parent Care Plan</p>
           <p className={classes.boldTitle}>What is Parent Care Plan (PCP)?</p>
@@ -22,37 +22,33 @@ function About() {
           </p>
         </div>
         <div className={classes.photoArea}>
-          <div className={classes.stackedImage}>
-            <img className={classes.topLeftImage} src={topLeftPhoto} alt="" />
+          <div className={classes.imageContainer}>
+            <img className={classes.topLeftImage} src={homeNursing} alt="" />
           </div>
-          <div className={classes.stackedImage}>
-            <img className={classes.topRightImage} src={topRightPhoto} alt="" />
+          <div className={classes.imageContainer}>
+            <img className={classes.topRightImage} src={oldCouple} alt="" />
           </div>
-          <div className={classes.stackedImage}>
-            <img
-              className={classes.bottomLeftImage}
-              src={bottomLeftPhoto}
-              alt=""
-            />
+          <div className={classes.imageContainer}>
+            <img className={classes.bottomLeftImage} src={handHolding} alt="" />
           </div>
-          <div className={classes.stackedImage}>
+          <div className={classes.imageContainer}>
             <img
               className={classes.bottomRightImage}
-              src={bottomRightPhoto}
+              src={doctorPatient}
               alt=""
             />
           </div>
         </div>
       </div>
-      <div className={classes.deepContainer}>
+      <div className={classes.secondContainer}>
         <div className={classes.photoArea2}>
           <div className={classes.borderImage}>
-            <img src={topLeftPhoto} alt="" />
+            <img className={classes.floatingImage} src={handHolding} alt="" />
           </div>
         </div>
         <div className={classes.textArea2}>
-          <p>Why Parent Care Plan is needed?</p>
-          <p>
+          <p className={classes.boldTitle2}>Why Parent Care Plan is needed?</p>
+          <p className={classes.description2}>
             You are living away from your loved ones, but always tense for them?
             <br />
             Don’t worry! Leave your tension to us, we provide the most reliable

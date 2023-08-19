@@ -1,4 +1,4 @@
-import hero from "../../assets/hero.jpg";
+import hero from "../../assets/Parent/Hero.jpg";
 import classes from "./Hero.module.css";
 
 function Hero() {
