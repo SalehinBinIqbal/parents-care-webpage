@@ -1,16 +1,16 @@
 .cardSection{
-    padding: 0 5.5rem;
+    padding: 0 5rem;
 }
 .cardSectionText{
     text-align: center;
 }
-.cardSectionText>p:nth-child(1){
+.title{
     color: var(--blue1);
     font-size: 36px;
     font-weight: 700;
     margin: 5px 0;
 }
-.cardSectionText>p:nth-child(2){
+.subTitle{
     color: var(--dark-grey);
     font-size: 23px;
     margin: 12px 0;
@@ -22,13 +22,10 @@
     grid-gap: 4rem;
 }
 .cardBody{
-    display: flex;
-    flex-direction: column;
     border: 1px solid #E8E4E4;
     border-radius: 8px;
     margin-top: 4px;
     background: linear-gradient(90deg, #cCe4f6, #F3F9FD);
-    background-size: cover;
 }
 .cardBody:hover{
     box-shadow: 0 3px 10px #E8E4E4;
