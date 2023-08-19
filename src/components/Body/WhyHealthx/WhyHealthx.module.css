@@ -32,7 +32,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 8px;
-    padding: 2.5rem 2rem;
+    padding: 2.5rem 1.5rem;
     position: absolute;
     top: 50px;
     z-index: -1;
@@ -50,6 +50,7 @@
 }
 .grid p{
     font-size: 19px;
+    font-weight: 500;
     color: var(--dark-grey);
     margin-top: 5%;
 }
@@ -57,5 +58,5 @@
     padding: 0 1rem;
 }
 .grid:nth-child(4) p{
-    padding: 0 3.1rem;
+    padding: 0 3.55rem;
 }
