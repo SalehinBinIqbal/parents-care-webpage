@@ -2,7 +2,7 @@
     padding: 4rem 5.5rem;
 }
 .iconGridText{
-    color: #457dc3;
+    color: var(--blue1);
     font-size: 36px;
     font-weight: 700;
     text-align: center;
@@ -35,9 +35,15 @@
 .iconSection:nth-child(4)>.iconContainer>img, .iconSection:nth-child(11)>.iconContainer>img{ 
     max-height: 35px;
 }
+.iconSection:nth-child(7)>.iconContainer, .iconSection:nth-child(9)>.iconContainer{
+    padding: 19px;
+}
+.iconSection:nth-child(7)>.iconContainer>img, .iconSection:nth-child(9)>.iconContainer>img{
+    max-width: 85%;
+}
 .iconTextContainer{
     text-align: center;
-    color: #021C79;
+    color: var(--deep-blue);
     font-size: 19px;
     font-weight: 500;
     padding-top: 10px;
