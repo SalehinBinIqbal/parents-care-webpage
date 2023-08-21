@@ -13,7 +13,7 @@ function WhyHealthx() {
       <div className={classes.gridContainer}>
         <div className={classes.gridBox}>
           <div className={classes.iconContainer}>
-            <img className={classes.icons} src={healthManager} alt="" />
+            <img src={healthManager} alt="" />
           </div>
           <div className={classes.textBoxBg}>
             <p className={classes.text}>
@@ -23,7 +23,7 @@ function WhyHealthx() {
         </div>
         <div className={classes.gridBox}>
           <div className={classes.iconContainer}>
-            <img className={classes.icons} src={caregivers} alt="" />
+            <img src={caregivers} alt="" />
           </div>
           <div className={classes.textBox}>
             <p className={classes.text}>24/7 Dedicated Doctors & Caregivers</p>
@@ -31,7 +31,7 @@ function WhyHealthx() {
         </div>
         <div className={classes.gridBox}>
           <div className={classes.iconContainer}>
-            <img className={classes.icons} src={trustedCare} alt="" />
+            <img src={trustedCare} alt="" />
           </div>
           <div className={classes.textBoxBg}>
             <p className={classes.text}>Trusted & Certified Caregivers</p>
@@ -39,7 +39,7 @@ function WhyHealthx() {
         </div>
         <div className={classes.gridBox}>
           <div className={classes.iconContainer}>
-            <img className={classes.icons} src={doctor} alt="" />
+            <img src={doctor} alt="" />
           </div>
           <div className={classes.textBox}>
             <p className={classes.text}>Pool of 1000+ Doctors</p>
@@ -47,7 +47,7 @@ function WhyHealthx() {
         </div>
         <div className={classes.gridBox}>
           <div className={classes.iconContainer}>
-            <img className={classes.icons} src={service} alt="" />
+            <img src={service} alt="" />
           </div>
           <div className={classes.textBoxBg}>
             <p className={classes.text}>We provide Personalized Services</p>
@@ -55,7 +55,7 @@ function WhyHealthx() {
         </div>
         <div className={classes.gridBox}>
           <div className={classes.iconContainer}>
-            <img className={classes.icons} src={process} alt="" />
+            <img src={process} alt="" />
           </div>
           <div className={classes.textBox}>
             <p className={classes.text}>Simplified process to avail services</p>
