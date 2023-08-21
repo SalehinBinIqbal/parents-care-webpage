@@ -11,7 +11,7 @@ function WhyHealthx() {
     <div className={classes.container}>
       <p className={classes.title}>Why HEALTHx?</p>
       <div className={classes.gridContainer}>
-        <div className={classes.gridBox}>
+        <div className={classes.itemBox}>
           <div className={classes.iconContainer}>
             <img src={healthManager} alt="" />
           </div>
@@ -21,7 +21,7 @@ function WhyHealthx() {
             </p>
           </div>
         </div>
-        <div className={classes.gridBox}>
+        <div className={classes.itemBox}>
           <div className={classes.iconContainer}>
             <img src={caregivers} alt="" />
           </div>
@@ -29,7 +29,7 @@ function WhyHealthx() {
             <p className={classes.text}>24/7 Dedicated Doctors & Caregivers</p>
           </div>
         </div>
-        <div className={classes.gridBox}>
+        <div className={classes.itemBox}>
           <div className={classes.iconContainer}>
             <img src={trustedCare} alt="" />
           </div>
@@ -37,7 +37,7 @@ function WhyHealthx() {
             <p className={classes.text}>Trusted & Certified Caregivers</p>
           </div>
         </div>
-        <div className={classes.gridBox}>
+        <div className={classes.itemBox}>
           <div className={classes.iconContainer}>
             <img src={doctor} alt="" />
           </div>
@@ -45,7 +45,7 @@ function WhyHealthx() {
             <p className={classes.text}>Pool of 1000+ Doctors</p>
           </div>
         </div>
-        <div className={classes.gridBox}>
+        <div className={classes.itemBox}>
           <div className={classes.iconContainer}>
             <img src={service} alt="" />
           </div>
@@ -53,7 +53,7 @@ function WhyHealthx() {
             <p className={classes.text}>We provide Personalized Services</p>
           </div>
         </div>
-        <div className={classes.gridBox}>
+        <div className={classes.itemBox}>
           <div className={classes.iconContainer}>
             <img src={process} alt="" />
           </div>

@@ -1,6 +1,5 @@
 import About from './About/About';
-import IconGrid from './IconGrid/IconGrid';
-import OfferCard2 from './OfferCard2/OfferCard2';
+import PersonalizedCare from './PersonalizedCare/PersonalizedCare';
 import WhyHealthx from './WhyHealthx/WhyHealthx';
 import Avail from './Avail/Avail';
 
@@ -8,8 +7,7 @@ function Body(){
     return(
         <>
             <About />
-            <IconGrid />
-            <OfferCard2 />
+            <PersonalizedCare />
             <WhyHealthx />
             <Avail />
         </>

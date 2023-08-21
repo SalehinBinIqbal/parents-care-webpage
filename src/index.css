@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&display=swap');
 
 :root{
+
+  --white: #ffffff;
   --deep-blue: #021c79;
   --dark-grey: #333333;
 
