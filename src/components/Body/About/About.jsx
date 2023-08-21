@@ -21,7 +21,7 @@ function About() {
             hospital transfer.
           </p>
         </div>
-        <div className={classes.photoArea}>
+        <div className={classes.photoGroup}>
           <div className={classes.imageContainer}>
             <img className={classes.topLeftImage} src={homeNursing} alt="" />
           </div>
@@ -41,14 +41,16 @@ function About() {
         </div>
       </div>
       <div className={classes.secondContainer}>
-        <div className={classes.photoArea2}>
+        <div>
           <div className={classes.borderImage}>
             <img className={classes.floatingImage} src={handHolding} alt="" />
           </div>
         </div>
-        <div className={classes.textArea2}>
-          <p className={classes.boldTitle2}>Why Parent Care Plan is needed?</p>
-          <p className={classes.description2}>
+        <div className={classes.textAreaSmall}>
+          <p className={classes.pcpNeedTitle}>
+            Why Parent Care Plan is needed?
+          </p>
+          <p className={classes.pcpNeedDescription}>
             You are living away from your loved ones, but always tense for them?
             <br />
             Don’t worry! Leave your tension to us, we provide the most reliable

@@ -16,11 +16,9 @@
     margin: 12px 0;
 }
 .planContainer{
-    display: grid;
-    grid-template-columns: .85fr .4fr .85fr .4fr 1fr;
-}
-.plan{
     padding-top: 2.5rem;
+    display: grid;
+    grid-template-columns: .85fr .35fr .85fr .35fr 1fr;
 }
 .numberBox{
     display: flex;
@@ -58,9 +56,7 @@
 .arrowIcon{
     display: flex;
     align-items: center;
-    justify-content: center;
-    position: relative;
-    left: 35px;
+    justify-content: end;
 }
 .arrowIcon>img{
     width: 40px;

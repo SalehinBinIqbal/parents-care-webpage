@@ -29,7 +29,7 @@
     color: var(--dark-grey);
     font-size: 20px;
 }
-.photoArea{
+.photoGroup{
     justify-items: center;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -82,18 +82,18 @@
     margin-left: 26px;
     margin-top: 24px;
 }
-.textArea2{
+.textAreaSmall{
     padding: 0 0 3.5rem 2.5rem;
 }
-.textArea2>p{
+.textAreaSmall>p{
     margin: 0;
 }
-.boldTitle2{
+.pcpNeedTitle{
     color: var(--light-blue);
     font-size: 36px;
     font-weight: 700;
 }
-.description2{
+.pcpNeedDescription{
     padding-top: 1rem;
     font-size: 20px;
     color: var(--dark-grey);
