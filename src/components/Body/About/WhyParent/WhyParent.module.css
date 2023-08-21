@@ -1,0 +1,40 @@
+.container{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.image{
+    background: var(--bg-blue);
+    border-radius: 0 34px 0 0;
+    width: 93%;
+}
+.image>img{
+    height: 270px;
+    width: 378px;
+    object-fit: cover;
+    vertical-align: bottom;
+    border-radius: 0 34px 0 0;
+    margin-left: 26px;
+    margin-top: 24px;
+}
+.textBox{
+    padding: 0 0 3.5rem 2.5rem;
+}
+.textBox>p{
+    margin: 0;
+}
+.title{
+    color: var(--light-blue);
+    font-size: 36px;
+    font-weight: 700;
+}
+.description{
+    padding-top: 1rem;
+    font-size: 20px;
+    color: var(--dark-grey);
+}
+.description>a{
+    color: var(--dark-grey);
+    font-weight: 600;
+}
