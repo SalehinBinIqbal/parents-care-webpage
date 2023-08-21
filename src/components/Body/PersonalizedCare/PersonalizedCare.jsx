@@ -1,15 +1,15 @@
-import healthManager from "../../../assets/Parent/Online.svg";
-import visitHome from "../../../assets/Parent/Home.svg";
-import onlineSupport from "../../../assets/Parent/Support.svg";
-import delivery from "../../../assets/Parent/Delivery.svg";
-import sampleCollect from "../../../assets/Parent/Sample.svg";
-import healthCheck from "../../../assets/Parent/Checkup.svg";
-import physiotherapy from "../../../assets/Parent/Physiotherapy.svg";
-import psychology from "../../../assets/Parent/Psychological.svg";
-import dietCare from "../../../assets/Parent/Diet.svg";
-import priorityService from "../../../assets/Parent/Service.svg";
-import ambulance from "../../../assets/Parent/Ambulance.svg";
-import healthRecord from "../../../assets/Parent/Records.svg";
+import healthManager from "../../../assets/Parent/Online.png";
+import visitHome from "../../../assets/Parent/Home.png";
+import onlineSupport from "../../../assets/Parent/Support.png";
+import delivery from "../../../assets/Parent/Delivery.png";
+import sampleCollect from "../../../assets/Parent/Sample.png";
+import healthCheck from "../../../assets/Parent/Checkup.png";
+import physiotherapy from "../../../assets/Parent/Physiotherapy.png";
+import psychology from "../../../assets/Parent/Psychological.png";
+import dietCare from "../../../assets/Parent/Diet.png";
+import priorityService from "../../../assets/Parent/Service.png";
+import ambulance from "../../../assets/Parent/Ambulance.png";
+import healthRecord from "../../../assets/Parent/Records.png";
 import classes from "./PersonalizedCare.module.css";
 
 function PersonalizedCare() {
