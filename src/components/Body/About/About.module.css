@@ -82,10 +82,10 @@
     margin-left: 26px;
     margin-top: 24px;
 }
-.textAreaSmall{
+.pcpNeedText{
     padding: 0 0 3.5rem 2.5rem;
 }
-.textAreaSmall>p{
+.pcpNeedText>p{
     margin: 0;
 }
 .pcpNeedTitle{

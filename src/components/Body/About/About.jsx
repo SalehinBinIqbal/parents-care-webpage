@@ -46,7 +46,7 @@ function About() {
             <img className={classes.floatingImage} src={handHolding} alt="" />
           </div>
         </div>
-        <div className={classes.textAreaSmall}>
+        <div className={classes.pcpNeedText}>
           <p className={classes.pcpNeedTitle}>
             Why Parent Care Plan is needed?
           </p>
