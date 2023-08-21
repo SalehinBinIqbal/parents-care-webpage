@@ -1,0 +1,53 @@
+.container{
+    padding: 4rem 5rem;
+}
+.title{
+    color: var(--blue1);
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+}
+.iconGrid{
+    padding-top: 4px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 25px;
+}
+.iconSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iconContainer{
+    background-color: #EFF6FF;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.iconContainer>img{ 
+    max-width: 95%;
+    max-height: 95%;
+}
+.iconSection:nth-child(4)>.iconContainer>img, .iconSection:nth-child(11)>.iconContainer>img{ 
+    max-height: 35px;
+}
+.iconSection:nth-child(7)>.iconContainer, .iconSection:nth-child(9)>.iconContainer{
+    padding: 19px;
+}
+.iconSection:nth-child(7)>.iconContainer>img, .iconSection:nth-child(9)>.iconContainer>img{
+    max-width: 85%;
+}
+.textBox{
+    text-align: center;
+    color: var(--deep-blue);
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.iconSection:nth-child(4)>.textBox{ 
+    padding: 10px 7px 0;
+}
