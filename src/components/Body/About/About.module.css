@@ -98,7 +98,7 @@
     font-size: 20px;
     color: var(--dark-grey);
 }
-.description2>a{
+.pcpNeedDescription>a{
     color: var(--dark-grey);
     font-weight: 600;
 }
