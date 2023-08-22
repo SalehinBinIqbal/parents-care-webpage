@@ -1,9 +1,9 @@
-import healthManager from "../../../assets/Parent/Managers.svg";
-import caregivers from "../../../assets/Parent/Caregivers.svg";
-import trustedCare from "../../../assets/Parent/Care.svg";
-import doctor from "../../../assets/Parent/Doctor.svg";
-import service from "../../../assets/Parent/Services.svg";
-import process from "../../../assets/Parent/Process.svg";
+import healthManager from "../../../assets/Parent/Managers.png";
+import caregivers from "../../../assets/Parent/Caregivers.png";
+import trustedCare from "../../../assets/Parent/Care.png";
+import doctor from "../../../assets/Parent/Doctor.png";
+import service from "../../../assets/Parent/Personalized.png";
+import process from "../../../assets/Parent/Process.png";
 import classes from "./WhyHealthx.module.css";
 
 function WhyHealthx() {
