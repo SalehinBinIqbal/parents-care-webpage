@@ -53,6 +53,7 @@
     object-position: 20%;
 }
 
+
 @media (max-width:420px){
     .container{
         flex-direction: column;

@@ -1,13 +1,15 @@
 .aboutSection{
-    margin-top: 7.6rem;
+    margin-top: 9.4em;
     background-image: url("../../../assets/Parent/AboutBg.png");
     background-size: cover;
     background-position: center;
     padding: 0 5rem;
 }
+
+
 @media (max-width:420px){
     .aboutSection{
-        margin-top: 5rem;
+        margin-top: 5.5rem;
         padding: 0 2rem;
         background-position: 90%;
     }
