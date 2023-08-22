@@ -42,3 +42,26 @@
 .iconSection:nth-child(4)>.textBox{ 
     padding: 10px 7px 0;
 }
+
+@media (max-width:420px){
+    .container{
+        padding: 2rem 2rem;
+    }
+    .title{
+        font-size: 18px;
+    }
+    .iconGrid{
+        grid-template-columns: repeat(2,1fr); 
+        grid-gap: 15px 8px;
+    }
+    .iconContainer{
+        padding: 15px;
+    }
+    .iconContainer>img{ 
+        max-width: 40px;
+        max-height: 40px;
+    }
+    .textBox{
+        font-size: 12px;
+    }
+}

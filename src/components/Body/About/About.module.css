@@ -5,3 +5,10 @@
     background-position: center;
     padding: 0 5rem;
 }
+@media (max-width:420px){
+    .aboutSection{
+        margin-top: 5rem;
+        padding: 0 2rem;
+        background-position: 90%;
+    }
+}

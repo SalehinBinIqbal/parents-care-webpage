@@ -10,7 +10,7 @@ function WhyHealthx() {
   return (
     <div className={classes.container}>
       <p className={classes.title}>Why HEALTHx?</p>
-      <div className={classes.gridContainer}>
+      <div className={classes.boxContainer}>
         <div className={classes.itemBox}>
           <div className={classes.iconContainer}>
             <img src={healthManager} alt="" />

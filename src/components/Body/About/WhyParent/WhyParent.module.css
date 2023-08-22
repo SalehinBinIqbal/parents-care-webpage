@@ -38,3 +38,29 @@
     color: var(--dark-grey);
     font-weight: 600;
 }
+
+@media (max-width:420px){
+    .container{
+        flex-direction: column;
+    }
+    .image{
+        border-radius: 0 18px 0 0;
+    }
+    .image>img{
+        height: auto;
+        width: 100%;
+        border-radius: 0 18px 0 0;;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .textBox{
+        padding: 1rem 0 1.5rem;
+    }
+    .title{
+        font-size: 18px;
+    }
+    .description{
+        padding-top: 10px;
+        font-size: 12px;
+    }
+}
